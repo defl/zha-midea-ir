@@ -1,0 +1,12 @@
+{
+  "domain": "zha_midea_ir",
+  "name": "Midea IR over ZHA",
+  "documentation": "https://github.com/defl/zha-midea-ir",
+  "issue_tracker": "https://github.com/defl/zha-midea-ir/issues",
+  "dependencies": ["zha"],
+  "codeowners": ["@defl"],
+  "requirements": [],
+  "iot_class": "assumed_state",
+  "integration_type": "device",
+  "version": "1.0.0"
+}
