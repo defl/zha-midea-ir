@@ -8,6 +8,11 @@ device's entire state space is a function of (mode, temperature, fan). The table
 validated against 27 codes captured from a physical handset; 26 of 27 reproduce the complete
 transmission bit-for-bit.
 
+**Sibling project:** [esphome_midea_b2](https://github.com/defl/esphome_midea_b2) is an ESPHome
+external component for the same protocol, for an ESP32 with an IR LED and receiver. It also
+decodes the handset, so its entity follows the unit when the remote is used. It is a separate,
+independent implementation; nothing is shared between the two.
+
 ## Why this exists
 
 SmartIR is the usual answer, and it has two problems here:
